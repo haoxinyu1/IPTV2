@@ -2,7 +2,7 @@
 
 ![IPTV直播源&工具](https://b2.wwkejishe.top/WP-CDN-02/uPic/2022091029.webp)
 
-**更新日期：2025年1月8日**
+**更新日期：2025年1月16日**
 
 ## IPTV直播源是干什么的
 
@@ -74,6 +74,7 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 | TVBox系列客户端                 | ❌      | ✅                     |
 | TVBox直播源                     | 部分   | ✅                     |
 | IPTV直播源播放源+工具（懒人版） | ❌      | ✅                     |
+| 专属TG群                        | ❌      | ✅                     |
 
 ![2025最全IPTV电视直播源及工具大纲展示](https://b2.wwkejishe.top/WP-CDN-02/2024/202406061423166.webp)
 
@@ -165,13 +166,6 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 ### 国内直播源
 
 - `https://myernestlu.github.io/zby.txt`
-
-
-### 中国(台港澳) IPTV直播源M3U
-
-港澳台电视台需要有富强上网才能收看
-
-[获取地址](https://www.wangdu.site/software/av-read/339.html)
 
 
 ### 国家地理、Discovery
@@ -272,6 +266,14 @@ https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
 # F1TV IPTV源 （仅比赛期间有信号）
 https://mashaf1.cn/F1.m3u
 ```
+
+## 中国(港澳台) IPTV直播源M3U
+
+主要收录香港、澳门、台湾以及一些海外华人频道等，部分港澳台电视台需要有 [富强](https://help.wwkejishe.top/wang-shang-xue-ke) 上网才能收看（[VIP版](https://fk.wwkejishe.top/buy/18) 包含专属港澳台播放源链接）
+
+- 港澳台直播源本地测试版 - **2025年1月16日更新**
+
+[获取地址](https://www.wangdu.site/software/av-read/339.html)
 
 ## 自搭建IPTV直播源
 
@@ -414,8 +416,16 @@ http://epg.aptvapp.com/xml
 | 拾光电视                   | Android                             | ✅        | ✅        |          | ✅          |          | ✅        |
 | 即刻电视                   | Android                             | ✅        | ✅        | ✅        |            |          |          |
 | 肥羊直播App                | Android                             | ✅        | ✅        | ✅        |            |          |          |
+| 电视大全                   | Android                             | ✅        | ✅        | ✅        |            |          | ✅        |
+| 大吉电视TV版               | Android                             | ✅        | ✅        |          |            |          |          |
+| 晨瑞电视                   | Android                             | ✅        | ✅        | ✅        | ✅          |          | ✅        |
 | 凤凰TV2.6                  | Android                             | ✅        | ✅        |          |            |          |          |
 | HDTV                       | Android                             | ✅        | ✅        |          | ✅          |          |          |
+| 伪·电视家                  | Android                             | ✅        | ✅        | ✅        |            |          |          |
+| 七星itv                    | Android                             | ✅        | ✅        |          | ✅          |          | ✅        |
+| Pn播放器                   | Android                             | ✅        | ✅        |          | ✅          |          |          |
+| 极速播TV                   | Android                             | ✅        | ✅        | ✅        |            |          |          |
+| 小飞电视                   | Android                             | ✅        | ✅        | ✅        |            |          |          |
 
 ### 我的电视
 
@@ -1389,6 +1399,19 @@ my-tv-apk 在原来的 mytv 修复了一些问题的新版本，请卸载原来�
 metv直播是一款功能强大的视频播放软件，提供了丰富的分类内容，用户可以根据自己的喜好筛选并观看喜爱的视频。软件内置多个高清播放源，用户可以随时切换源以获得更好的播放体验。此外，软件还具有历史记录功能，可自动记录用户观看的剧集信息，方便用户随时在线查看。另外，还提供了倍速调节功能，用户可以根据自己的需求选择快速或慢速播放视频。
 
 ## 更新日志
+
+### 2025年1月16日
+
+- （VIP版）IPTV源、EPG接口（精选）- 在线IPTV源（博主自维护）更新 直播源（央视频道、卫视频道、港澳台频道）
+- 中国(港澳台) IPTV直播源M3U 更新 直播源
+
+### 2025年1月15日
+
+- （VIP版）IPTV源、EPG接口（精选）- 在线IPTV源（博主自维护）更新 直播源
+
+### 2025年1月13日
+
+- （VIP版）IPTV直播源（Docker自搭建） 完善教程
 
 ### 2025年1月10日
 
