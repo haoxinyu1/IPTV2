@@ -2,7 +2,7 @@
 
 ![IPTV直播源&工具](https://b2.wwkejishe.top/WP-CDN-02/uPic/2022091029.webp)
 
-**更新日期：2025年8月24日** 
+**更新日期：2025年8月27日** 
 
 更新内容：请查看[更新日志](#更新日志)
 
@@ -300,6 +300,20 @@ https://mashaf1.cn/F1.m3u
 [pixman搭建教程](https://pixman.io/topics/17)：`https://hub.docker.com/r/pixman/pixman`（Docker镜像拉取不下来，请使用：[国内DockerHub镜像加速器](https://www.wangdu.site/course/2109.html)）
 
 ![pixman支持的直播源](https://b2.wwkejishe.top/WP-CDN-02/2024/202406281529691.png)
+
+### IPTV-API
+
+[Guovin/iptv-api](https://github.com/Guovin/iptv-api)：一个可高度自定义的IPTV接口更新项目📺，自定义频道菜单，自动获取直播源，测速验效后生成可用的结果，可实现『✨秒播级体验🚀』
+
+- ✅ 自定义模板，支持别名，生成您想要的频道
+- ✅ 支持RTMP推流(live/hls)，提升播放体验
+- ✅ 支持多种获取源方式：本地源、组播源、酒店源、订阅源、关键字搜索
+- ✅ 支持回放类接口获取与生成
+- ✅ 支持EPG功能，显示频道预告内容
+- ✅ 接口测速验效，获取延迟、速率、分辨率，过滤无效接口
+- ✅ 偏好设置：IPv4、IPv6、接口来源排序优先级与数量配置、白名单、黑名单、归属地与运营商过滤
+- ✅ 定时执行，北京时间每日 6:00 与 18:00 执行更新
+- ✅ 支持多种运行方式：工作流、命令行、GUI 软件、Docker(amd64/arm64/arm v7)
 
 ## IPTV电视直播源（搜索工具）
 
@@ -956,9 +970,7 @@ IPTV Pro 即交互式网络电视，是一种利用宽带网，集互联网、�
 
 ### PotPlayer
 
-[Potplayer](https://potplayer.daum.net/?lang=zh_CN) 是 KMPlayer 的原制作者姜龙喜先生进入 Daum 公司后的新一代作品，PotPlayer优势在于强大的内置解码器和灵活的设置，软件小巧精简，功能强大，支持 DXVA, CUDA, QuickSync 等等，支持文字字幕SMI，SRT、Vobsub(DVD)，蓝光SUP字幕等多种字幕资源，支持 ASS/SSA 动画以及SMI ruby tag。
-
-[Potplayer软件搬运站（用于备用下载）](https://daumpotplayer.com/download/)
+[Potplayer官网地址](https://potplayer.daum.net/?lang=zh_CN) 是 KMPlayer 的原制作者姜龙喜先生进入 Daum 公司后的新一代作品，PotPlayer优势在于强大的内置解码器和灵活的设置，软件小巧精简，功能强大，支持 DXVA, CUDA, QuickSync 等等，支持文字字幕SMI，SRT、Vobsub(DVD)，蓝光SUP字幕等多种字幕资源，支持 ASS/SSA 动画以及SMI ruby tag。
 
 [Potplayer软件搬运站（用于备用下载）](https://potplayer.org/)
 
@@ -1486,6 +1498,10 @@ my-tv-apk 在原来的 mytv 修复了一些问题的新版本，请卸载原来�
 metv直播是一款功能强大的视频播放软件，提供了丰富的分类内容，用户可以根据自己的喜好筛选并观看喜爱的视频。软件内置多个高清播放源，用户可以随时切换源以获得更好的播放体验。此外，软件还具有历史记录功能，可自动记录用户观看的剧集信息，方便用户随时在线查看。另外，还提供了倍速调节功能，用户可以根据自己的需求选择快速或慢速播放视频。
 
 ## 更新日志
+
+### 2025年8月27日
+
+- （VIP版） IPTV源、EPG接口（精选）- 在线IPTV源（博主自维护） 更新 直播源（咪咕体育、港澳台频道、国外纪录片频道）【[点击查看VIP节目单](https://iptv.wwkejishe.top/channels.txt)】
 
 ### 2025年8月24日
 
