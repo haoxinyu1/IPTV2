@@ -2,9 +2,13 @@
 
 ![IPTV直播源&工具](https://b2.wwkejishe.top/WP-CDN-02/uPic/2022091029.webp)
 
-**更新日期：2025年9月29日** 
+**更新日期：2025年9月30日** 
 
 更新内容：请查看[更新日志](#更新日志)
+
+- [体育直播源](#iptv直播源体育专区)
+- [自带直播源的手机软件](#iptv直播源播放工具自带源)
+- [空壳软件](#iptv播放工具空壳软件需直播源)
 
 ## IPTV直播源是干什么的
 
@@ -25,10 +29,10 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 
 - **央视+各省**：基本上包括了央视全套的高清频道和国内各个省级的卫视。
 - **地方频道**：主要是各个省的地方频道，按照省份排列，内容有些多和杂，质量也层次不齐，这个主要是方便大家按照兴趣组合。
-- **港澳台**：搜集整理的香港、台湾和澳门以及一些海外华人频道，其中包括凤凰卫视、TVB、星空等一些深受大家喜欢的频道。
+- [港澳台](#中国港澳台-iptv直播源m3u)：搜集整理的香港、台湾和澳门以及一些海外华人频道，其中包括凤凰卫视、TVB、星空等一些深受大家喜欢的频道。
 - **特色频道**：主要包括了一些影视轮播、NewTV、CHC等特色频道
 - **体育频道**：主要包括五星体育、咪咕体育、劲爆体育等体育频道
-- **国际频道**：DISCOVERY、BBC、FOX News、CNN等国际频道
+- [国际频道](https://pan.quark.cn/s/b422a89b682c)：DISCOVERY、BBC、FOX News、CNN等国际频道
 
 ### IPTV工具
 
@@ -207,7 +211,7 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 
 ## IPTV源精细版（Github仓库）
 
-将仓库所包含的IPTV直播源，按照`更新时间`排序，更加方便使用。（[VIP版](https://www.wangdu.site/software/av-read/339.html) 包含更全、更新更及时）
+将仓库所包含的IPTV直播源，按照`更新时间`排序，更加方便使用。
 
 > ⚠️温馨提示：
 >
@@ -818,6 +822,14 @@ http://epg.aptvapp.com/xml
 
 [音速直播](https://www.wangdu.site/software/av-read/339.html)（版本号：6.0.2），应该是即刻的破解版，有中央卫视、各省地区、少儿、数字、轮播等频道。速度快、清晰度高
 
+### 晶奥直播
+
+[晶奥直播tv版v1.0.2.99 - 一款全新mytv壳子内置源直播TV](https://www.wangdu.site/software/dianshihezi/2258.html) 是一款基于mytv壳子的电视直播APP，提供央视、卫视、电影、体育等丰富频道资源，内置稳定高清源，无广告且支持多线路流畅播放。用户安装登录后即可免费使用，操作简单，切换频道便捷。
+
+### 直播大全电视APP
+
+[直播大全电视APP：央视、卫视、体育，高清流畅。 ](https://www.wangdu.site/software/dianshihezi/2261.html) 是一款无广告的电视直播软件，支持央视、卫视及地方台实时观看，提供高清画质，适配手机和电视。用户通过频道列表快速切换节目，电视端需通过U盘安装。同类软件包括大吉电视、晶奥直播等。
+
 ## IPTV播放工具（空壳软件，需直播源）
 
 可以用于来看 IPTV、M3U、M3U8 格式的软件，手机用户最好
@@ -906,7 +918,7 @@ IPTV Pro 即交互式网络电视，是一种利用宽带网，集互联网、�
 
 ### PotPlayer
 
-[Potplayer官网地址](https://potplayer.daum.net/?lang=zh_CN) 是 KMPlayer 的原制作者姜龙喜先生进入 Daum 公司后的新一代作品，PotPlayer优势在于强大的内置解码器和灵活的设置，软件小巧精简，功能强大，支持 DXVA, CUDA, QuickSync 等等，支持文字字幕SMI，SRT、Vobsub(DVD)，蓝光SUP字幕等多种字幕资源，支持 ASS/SSA 动画以及SMI ruby tag。
+[Potplayer官网地址](https://potplayer.daum.net/?lang=zh_CN)（[PotPlayer v1.7.22619绿色版](https://pan.quark.cn/s/b422a89b682c)） 是 KMPlayer 的原制作者姜龙喜先生进入 Daum 公司后的新一代作品，PotPlayer优势在于强大的内置解码器和灵活的设置，软件小巧精简，功能强大，支持 DXVA, CUDA, QuickSync 等等，支持文字字幕SMI，SRT、Vobsub(DVD)，蓝光SUP字幕等多种字幕资源，支持 ASS/SSA 动画以及SMI ruby tag。
 
 [Potplayer软件搬运站（用于备用下载）](https://potplayer.org/)
 
@@ -960,6 +972,15 @@ IPTV Pro 即交互式网络电视，是一种利用宽带网，集互联网、�
 ### BLANK-播放器 v5.0.9.7
 
 [Blank播放器](https://blankvip.top/) 是一款看电视直播及点播等节目 制作的软件 完全免费使用， 播放器播放的直播格式有 [http https p2p mitv m3u8 rtmp rtsp rmvb mp4 mkv flv 等常见视频格式。
+
+### CharmingTVBox
+
+[CharmingTVBox](https://pan.quark.cn/s/1448343997e0) （Github地址：[CharmingCheung/CharmingTVBox](https://github.com/CharmingCheung/CharmingTVBox/releases)）
+
+- 支持系统：Windows、MacOS
+- **播放核心优化**：为提升兼容性，非 mpd 声明的流将暂时强制通过 hls 协议播放，暂时解决部分hls流的媒体类型判断错误问题。后续考虑引入多播放器库以优化体验。
+- **缓存机制调整**：已禁用缓存，确保 m3u8 播放列表能即时获取最新内容，防止因缓存数据过时导致的问题。
+- **请求策略变更**：请求 header 已默认移除 Referer。后续版本再支持在自定义 header 中配置Referer。
 
 ## TVBox介绍
 
@@ -1438,6 +1459,13 @@ my-tv-apk 在原来的 mytv 修复了一些问题的新版本，请卸载原来�
 metv直播是一款功能强大的视频播放软件，提供了丰富的分类内容，用户可以根据自己的喜好筛选并观看喜爱的视频。软件内置多个高清播放源，用户可以随时切换源以获得更好的播放体验。此外，软件还具有历史记录功能，可自动记录用户观看的剧集信息，方便用户随时在线查看。另外，还提供了倍速调节功能，用户可以根据自己的需求选择快速或慢速播放视频。
 
 ## 更新日志
+
+### 2025年9月30日
+
+- 已失效软件
+  - 《电视家青春版》diyp：央视、卫视、影院、MTV、斗鱼
+  - 《宽带电视》mytv：央视，卫视，地区
+  - 东方HD1.3.5-需要授权码
 
 ### 2025年9月19日
 
