@@ -2,7 +2,7 @@
 
 ![IPTV直播源&工具](https://b2.wwkejishe.top/WP-CDN-02/uPic/2022091029.webp)
 
-**更新日期：2025年10月5日** 
+**更新日期：2025年10月6日** 
 
 更新内容：请查看[更新日志](#更新日志)
 
@@ -148,7 +148,7 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 
 主要收录香港、澳门、台湾以及一些海外华人频道等，部分港澳台电视台需要有 [富强](https://help.wwkejishe.top/wang-shang-xue-ke) 上网才能收看
 
-[获取地址](https://www.wangdu.site/software/av-read/339.html)
+[获取地址](https://www.wangdu.site/software/av-read/339.html)（[稳定直播源](https://flowus.cn/wwkejishe/share/2a321694-8729-467b-81db-417e4f99022e?code=BCRWJL)）
 
 ### 港澳台电视直播apk
 
@@ -210,7 +210,7 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 
 五星体育是上海广播电视台旗下的地面电视频道，是中国大陆地区唯一获得wrc官方授权的电视媒体。它是上海文广新闻传媒集团体育产业的营运商和体育节目、体育内容的提供商，成立于2001年10月8日。此外，五星体育也是SMG旗下的第一个专业频道，已经实现每日24小时电视播出，并推广到多个中国及全球的电视平台和新媒体。
 
-[下载地址](https://www.wangdu.site/software/av-read/339.html)
+[下载地址](https://www.wangdu.site/software/av-read/339.html)（[稳定直播源](https://flowus.cn/wwkejishe/share/2a321694-8729-467b-81db-417e4f99022e?code=BCRWJL)）
 
 ### 五大联赛
 
@@ -232,7 +232,7 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 
 ### 咪咕体育
 
-[获取地址](https://www.wangdu.site/software/av-read/339.html) 仅面向 **已有咪咕会员** 用户，旨在方便在影视类 APP（如 OK影视、影视仓 等）中实现电视、体育赛事等内容的无缝切换。
+[获取地址](https://www.wangdu.site/software/av-read/339.html)（[稳定直播源](https://flowus.cn/wwkejishe/share/2a321694-8729-467b-81db-417e4f99022e?code=BCRWJL)） 仅面向 **已有咪咕会员** 用户，旨在方便在影视类 APP（如 OK影视、影视仓 等）中实现电视、体育赛事等内容的无缝切换。
 
 **关于 Token：**
 
@@ -282,6 +282,39 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 - ✅ 偏好设置：IPv4、IPv6、接口来源排序优先级与数量配置、白名单、黑名单、归属地与运营商过滤
 - ✅ 定时执行，北京时间每日 6:00 与 18:00 执行更新
 - ✅ 支持多种运行方式：工作流、命令行、GUI 软件、Docker(amd64/arm64/arm v7)
+
+## IPTV管理工具
+
+### Dispatcharr
+
+[Dispatcharr](https://github.com/Dispatcharr/Dispatcharr) 是一款强大的开源工具，能够优雅且控制地管理 IPTV 流和 EPG 数据。
+
+- ✨**代理流媒体引擎**— 优化带宽、减少提供商连接并提高流媒体可靠性
+- 📊**实时统计仪表板**— 实时洞察流媒体健康和客户端活动
+- 🧠 **EPG 自动匹配**— 自动将节目数据与频道匹配
+- ⚙️ **Streamlink + FFmpeg 支持**— 灵活的流媒体和录制后端选项
+- 🎬 **VOD 管理**— 完全支持电影和电视剧的视频点播
+- 🧼 **UI 和 UX 增强功能**— 更流畅、更快、响应更快的界面
+- 🛁**输出兼容性**— HDHomeRun、M3U 和 XMLTV EPG 支持 Plex、Jellyfin 等
+
+### IPTV工具箱
+
+[IPTV工具箱](https://github.com/taksssss/iptv-tool)  `Docker` 部署，支持 **EPG 管理**、**直播源管理**、**台标管理**，兼容 **DIYP/百川**、 **超级直播**以及 **xmltv** 格式。
+
+- 📡 **多格式**：支持返回 DIYP/百川、超级直播以及 xmltv 格式文件。
+- 🐳 **多架构**：提供 amd64、arm64 和 armv7 架构的 Docker 镜像。
+- 📦 **小体积镜像**：基于 Alpine 构建，压缩后仅 20 MB。
+- 🗃️ **数据库管理**：支持 SQLite 和 MySQL 数据库，内置 phpLiteAdmin 管理工具。
+- 🖼️ **台标管理**：支持台标模糊匹配，支持 tvbox 接口。
+- ➰ **直播源管理**：支持聚合 TXT/M3U 直播源、测速校验、直播源代理。
+- 🔒 **访问权限控制**：支持设置 TOKEN 、User-Agent、IP 黑白名单。
+- ⏱️ **缓存支持**：集成 Memcached，支持 Redis。
+- 🔄 **频道匹配**：支持繁体中文频道匹配、模糊匹配；支持频道别名、正则表达式。
+- ⏳ **定时任务**：支持定时更新数据。
+- 📝 **节目单生成**：支持生成指定频道节目单并匹配 M3U 的 xmltv 格式文件。
+- 🗂️ **兼容多种格式**：支持不同标准格式的 XMLTV 文件，支持自定义数据源。
+- 🛠️ **文件管理**：集成 tinyfilemanager 文件管理器。
+- 🌐 **界面设置**：包含简单易用的网页设置页面，便于操作和管理。
 
 ## IPTV电视直播源（搜索工具）
 
@@ -1501,6 +1534,10 @@ my-tv-apk 在原来的 mytv 修复了一些问题的新版本，请卸载原来�
 metv直播是一款功能强大的视频播放软件，提供了丰富的分类内容，用户可以根据自己的喜好筛选并观看喜爱的视频。软件内置多个高清播放源，用户可以随时切换源以获得更好的播放体验。此外，软件还具有历史记录功能，可自动记录用户观看的剧集信息，方便用户随时在线查看。另外，还提供了倍速调节功能，用户可以根据自己的需求选择快速或慢速播放视频。
 
 ## 更新日志
+
+### 2025年10月6日
+
+- 新增 IPTV管理工具
 
 ### 2025年10月3日
 
