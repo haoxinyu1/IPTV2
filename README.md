@@ -2,7 +2,7 @@
 
 ![IPTV直播源&工具](https://b2.wwkejishe.top/WP-CDN-02/uPic/2022091029.webp)
 
-**更新日期：2025年10月19日** 
+**更新日期：2025年10月20日** 
 
 更新内容：请查看[更新日志](#更新日志)
 
@@ -94,7 +94,7 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 
 > 在线文档声明：直播源均来源于互联网，这个费用只是搜集、整理及维护的辛苦费！
 
-| 频道类目 | **30元（月卡）** | **120元（年卡）** | **60元（在线文档）** |
+| 频道类目 | **30元（月卡）** | **200元（年卡）** | **100元（在线文档）** |
 | -------- | ---------------- | ----------------- | -------------------- |
 |                      | [点击购买](https://fk.wangdu.site/buy/31)（[备用地址](https://fk.wwkjs.top/buy/31)） | [点击购买](https://fk.wangdu.site/buy/18)（[备用地址](https://fk.wwkjs.top/buy/18)） |[点击购买](https://fk.wangdu.site/buy/43)（[备用地址](https://fk.wangdu.site/buy/43)）|
 |央视、卫视|✅|✅|✅|
@@ -441,7 +441,7 @@ http://epg.aptvapp.com/xml
 
 ## 播放工具懒人版
 
-[播放工具懒人版详细版](https://www.wangdu.site/software/av-read/339.html)（简单易懂）
+[播放工具懒人版详细版](https://fk.wangdu.site/buy/43)（简单易懂）
 
 - 好用的 IPTV 直播源
 - Android、iOS、MacOS、Windows 系统看电视、看电影软件（以下是 Android 失效名单）
@@ -463,7 +463,7 @@ http://epg.aptvapp.com/xml
 
 ### 看电影
 
-1. [全网影视](https://www.wangdu.site/software/av-read/339.html)：TVBox修改版带数据源
+1. [全网影视](https://fk.wangdu.site/buy/43)：TVBox修改版带数据源
    - 启动后，需要手动激活"仓库"。
    - 激活操作：多仓版本点击【配置】，在出现的窗口中点击"确定"，选择"仓库"；单仓版本直接点击【线路】或【主页】
    - 关于直播：在进入【直播】后，按菜单键，选择右边的【直播地址】，则会出现多个接口的切换选择。
@@ -1583,9 +1583,13 @@ metv直播是一款功能强大的视频播放软件，提供了丰富的分类�
 
 ## 更新日志
 
+### 2025年10月20日
+
+- [博主自维护直播源](https://fk.wangdu.site/buy/18)（[备用地址](https://fk.wwkjs.top/buy/18)） 更新 IPTV自带直播源软件
+
 ### 2025年10月19日
 
-- 
+- [博主自维护直播源](https://fk.wangdu.site/buy/18)（[备用地址](https://fk.wwkjs.top/buy/18)） 更新 国外体育直播源
 
 ### 2025年10月18日
 
