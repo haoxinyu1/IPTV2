@@ -2,7 +2,7 @@
 
 ![IPTV直播源&工具](https://b2.wwkejishe.top/WP-CDN-02/uPic/2022091029.webp)
 
-**更新日期：2026年8月11日** 
+**更新日期：2026年8月20日** 
 
 更新内容：请查看[更新日志](#更新日志)
 
@@ -341,7 +341,162 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 
 [获取地址](https://www.wangdu.site/software/av-read/339.html)
 
-## 自搭建IPTV直播源
+## Docker自搭建IPTV直播源
+
+### 五大联赛赛事直播使用教程
+
+`wudaliansai` 用于生成赛事“直播中”M3U 列表，覆盖足球、篮球、电竞。列表中的每条链接都是本地代理地址，访问时会 302 跳转到真实播放地址。（Docker镜像拉取不下来，请使用：[国内DockerHub镜像加速器](https://www.wangdu.site/course/2109.html)）
+
+镜像支持多平台架构：
+
+- linux/amd64
+- linux/arm64
+- linux/arm/v7
+
+#### Docker 运行
+
+```bash
+docker run -d \
+  --name wudaliansai \
+  --restart always \
+  -p 18765:18765 \
+  -v wudaliansai-cache:/cache \
+  iptvtop/wudaliansai:latest
+```
+
+访问直播列表：
+
+```text
+http://你的服务器IP:18765/live.m3u
+```
+
+例如：
+
+```text
+http://127.0.0.1:18765/live.m3u
+```
+
+健康检查：
+
+```text
+http://你的服务器IP:18765/health
+```
+
+#### Docker Compose
+
+```yaml
+services:
+  wudaliansai:
+    image: iptvtop/wudaliansai:latest
+    container_name: wudaliansai
+    restart: always
+    ports:
+      - "18765:18765"
+    volumes:
+      - wudaliansai-cache:/cache
+
+volumes:
+  wudaliansai-cache:
+```
+
+启动：
+
+```bash
+docker compose up -d
+```
+
+#### 播放地址自动匹配访问地址
+
+列表里的本地链接会根据你访问 M3U 时使用的地址自动生成，不需要手动指定前缀：
+
+- 用 `http://127.0.0.1:18765/live.m3u` 访问，生成的链接就是 `http://127.0.0.1:18765/play/...`
+- 用 `http://192.168.1.100:18765/live.m3u` 访问，生成的链接就是 `http://192.168.1.100:18765/play/...`
+
+#### CDN 或反向代理地址
+
+如果通过 CDN 或反向代理提供 HTTPS 域名，推荐直接设置固定基址：
+
+```bash
+docker run -d \
+  --name wudaliansai \
+  --restart always \
+  -p 18765:18765 \
+  -v wudaliansai-cache:/cache \
+  -e WUDALIANSAI_BASE_URL=https://你的域名 \
+  iptvtop/wudaliansai:latest
+```
+
+也可以让反向代理透传 `X-Forwarded-Proto` 和 `X-Forwarded-Host`，服务会自动使用对应协议和域名生成链接。
+
+#### 环境变量
+
+| 变量                       | 默认值          | 说明                            |
+| -------------------------- | --------------- | ------------------------------- |
+| `BIND`                     | `0.0.0.0:18765` | 监听地址                        |
+| `WUDALIANSAI_CACHE_DIR`    | `/cache`        | 域名等缓存目录                  |
+| `WUDALIANSAI_BASE_URL`     | 空              | 固定 M3U 链接基址，覆盖自动识别 |
+| `WUDALIANSAI_DOMAIN`       | 空              | 优先使用的上游 API 域名         |
+| `WUDALIANSAI_KIWI_DOMAINS` | 空              | Kiwi 预埋域名，逗号分隔         |
+| `RUST_LOG`                 | `info`          | 日志级别                        |
+
+#### 缓存说明
+
+- 直播中列表缓存 10 分钟；
+- 每个真实播放地址缓存 10 分钟；
+- 上游 API 域名健康检查结果缓存 5 分钟，失败自动切换并进入冷却；
+- 域名列表会写入 `WUDALIANSAI_CACHE_DIR/domain_cache.json`，重启后优先复用。
+
+#### Watchtower 自动更新
+
+如果已经有 Watchtower，不需要再创建第二个。重建现有 Watchtower，并把
+`wudaliansai` 加入监控列表即可：
+
+```bash
+docker rm -f watchtower
+docker run -d \
+  --name watchtower \
+  --restart always \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  containrrr/watchtower:latest \
+  wudaliansai \
+  --cleanup \
+  --interval 3600
+```
+
+如果还需要同时监控其他容器，把容器名一起写在 `wudaliansai` 后面即可。
+
+#### 手动更新
+
+```bash
+docker pull iptvtop/wudaliansai:latest
+docker rm -f wudaliansai
+docker run -d \
+  --name wudaliansai \
+  --restart always \
+  -p 18765:18765 \
+  -v wudaliansai-cache:/cache \
+  iptvtop/wudaliansai:latest
+```
+
+#### 常用检查
+
+检查容器状态：
+
+```bash
+docker ps | grep wudaliansai
+```
+
+查看日志：
+
+```bash
+docker logs -f wudaliansai
+```
+
+检查服务与缓存状态：
+
+```bash
+curl http://127.0.0.1:18765/health
+```
 
 ### pixman
 
@@ -1755,6 +1910,10 @@ my-tv-apk 在原来的 mytv 修复了一些问题的新版本，请卸载原来�
 metv直播是一款功能强大的视频播放软件，提供了丰富的分类内容，用户可以根据自己的喜好筛选并观看喜爱的视频。软件内置多个高清播放源，用户可以随时切换源以获得更好的播放体验。此外，软件还具有历史记录功能，可自动记录用户观看的剧集信息，方便用户随时在线查看。另外，还提供了倍速调节功能，用户可以根据自己的需求选择快速或慢速播放视频。
 
 ## 更新日志
+
+### 2026年8月20日
+
+- Docker自搭建IPTV直播源 新增 五大联赛赛事直播使用教程
 
 ### 2026年8月11日
 
