@@ -340,9 +340,11 @@ CCTV-1综合,http://121.24.98.226:8090/hls/9/index.m3u8
 > - 移动用户可联系客服开通或领取会员。
 > - 为避免封号风险，请谨慎使用，本仓库不保证安全性。
 
-### 排位赛阿塞拜疆F1练习赛Apple TV
+### F1 Apple TV 4K杜比视界直播
 
-排位赛阿塞拜疆F1练习赛Apple TV杜比视界4K开启了，4K杜比视界+5.1声道 F1直播均在：`https://kan.waiguotai.top/other.m3u`（来自：[IPTV直播源总部](https://t.me/iptvorganization/164)）
+本期圣保罗F1练习赛一已经开赛，Apple TV 规格再次拔高为 4K杜比视界：3840x2160 · 15.32Mbps · hvc1.2.4.L153.B0，en · joc ec-3 · 770kbps（5.1声道）。F1直播均在：`https://kan.waiguotai.top/other.m3u`（来自：[IPTV直播源总部](https://t.me/iptvorganization/164)）
+
+> 看不了的用香港节点。
 
 ## IPTV源精细版（Github仓库）
 
@@ -1371,7 +1373,7 @@ IPTV Pro 即交互式网络电视，是一种利用宽带网，集互联网、�
 
 ### BLANK-播放器 v5.0.9.7
 
-[Blank播放器](https://blankvip.top/) 是一款看电视直播及点播等节目 制作的软件 完全免费使用， 播放器播放的直播格式有 [http https p2p mitv m3u8 rtmp rtsp rmvb mp4 mkv flv 等常见视频格式。
+[Blank播放器](https://blankvip.top/) 是一款看电视直播及点播等节目 制作的软件 完全免费使用， 播放器播放的直播格式有 http https p2p mitv m3u8 rtmp rtsp rmvb mp4 mkv flv 等常见视频格式。
 
 ### CharmingTVBox
 
@@ -1612,7 +1614,7 @@ https://cdn.jsdelivr.net/gh/jyoketsu/tv@main/m.json
 
 ![APTV订阅在线IPTV源教程](https://b2.wwkejishe.top/WP-CDN-02/2024/202406241153287.png)
 
-直播源直接使用IPTV、APTV 直播源 m3u - [仓库精细版](#仓库精细版) 里的 👍 直播源即可。
+直播源直接使用IPTV、APTV 直播源 m3u - [仓库精细版](#iptv源精细版github仓库) 里的 👍 直播源即可。
 
 ## 智能电视安装TVBox/影视仓方法
 
@@ -1817,7 +1819,7 @@ EPG 显示问题通常有以下解决方案：
 - 电视直播：实时观看各类电视节目。
 - 节目回看：错过了最爱的节目？不用担心，回看功能让您随时追上精彩。(需要直播源支持才可以哦)
 - 多种播放模式：支持投屏、背景播放和画中画功能，满足您的各种观看需求。
-- 随身携带的电视：不论您在家中、路上还是任何
+- 随身携带的电视：不论您在家中、路上还是任何地方，都能随时观看喜爱的电视节目。
 
 ### 我的电视（不推荐）
 
@@ -1924,6 +1926,10 @@ metv直播是一款功能强大的视频播放软件，提供了丰富的分类�
 
 ## 更新日志
 
+### 2026年11月3日
+
+- IPTV直播源（体育专区） 更新 F1 Apple TV 4K杜比视界直播
+
 ### 2026年8月20日
 
 - Docker自搭建IPTV直播源 新增 五大联赛赛事直播使用教程
@@ -2005,7 +2011,7 @@ metv直播是一款功能强大的视频播放软件，提供了丰富的分类�
 
 ### 2025年11月3日
 
-- 新增 [VPS 自部署 4GTV 查看湾湾频道](./IPTV-VPS部署4GTV,md)教程
+- 新增 [VPS 自部署 4GTV 查看湾湾频道](./IPTV-VPS部署4GTV.md)教程
 
 ### 2025年10月31日
 
@@ -2329,7 +2335,7 @@ metv直播是一款功能强大的视频播放软件，提供了丰富的分类�
 ### 2025年4月29日
 
 1. （VIP版） IPTV源、EPG接口（精选）- 在线IPTV源（博主自维护） 更新 央视、港澳台频道
-2. 新增 [自部署教程](./IPTV-CloudCone%20VPS自部署Pixman-4gtv查看港台频道.md)
+2. 新增 [自部署教程（已失效）](./（已失效）IPTV-CloudCone%20VPS自部署Pixman-4gtv查看港台频道.md)
 
 ### 2025年4月28日
 
